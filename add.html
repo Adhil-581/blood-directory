@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Donor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Add Donor</h1>
+</div>
+
+<div class="container form-container">
+
+  <input type="text" id="name" placeholder="Name">
+
+  <select id="blood">
+    <option value="">Select Blood Group</option>
+    <option>A+</option><option>A-</option>
+    <option>B+</option><option>B-</option>
+    <option>O+</option><option>O-</option>
+    <option>AB+</option><option>AB-</option>
+  </select>
+
+  <select id="district">
+    <option value="">Select District</option>
+    <option>Kollam</option>
+    <option>Trivandrum</option>
+    <option>alapuzha</option>
+  </select>
+
+  <input type="text" id="location" placeholder="Area / Location">
+
+  <input type="text" id="phone" placeholder="Phone Number">
+
+  <button onclick="addDonor()">Submit</button>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
